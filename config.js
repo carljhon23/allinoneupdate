@@ -6,7 +6,7 @@ module.exports = {
     rotateDefault: [
       { name: 'Wisdom Movies', type: ActivityType.Watching },
       { name: 'Wisdom Games', type: ActivityType.Playing },
-      { name: 'Wisdom Live', type: ActivityType.Streaming, url: 'https://www.twitch.tv/glaceytt' },
+      { name: 'Wisdom Live', type: ActivityType.Streaming, url: 'https://www.youtube.com/@Wisdom_Circle1' },
       { name: 'Apollo BElvedere', type: ActivityType.Listening },
     ],
     songStatus: true
