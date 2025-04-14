@@ -236,19 +236,19 @@ module.exports = (client) => {
                 let components = [];
                 if (track.requester && track.requester.id) {
                     const buttonsRow = new ActionRowBuilder().addComponents(
-                        new ButtonBuilder().setCustomId(`volume_up_${track.requester.id}`).setEmoji('🔊').setStyle(ButtonStyle.Secondary),
-                        new ButtonBuilder().setCustomId(`volume_down_${track.requester.id}`).setEmoji('🔉').setStyle(ButtonStyle.Secondary),
-                        new ButtonBuilder().setCustomId(`pause_${track.requester.id}`).setEmoji('⏸️').setStyle(ButtonStyle.Secondary),
-                        new ButtonBuilder().setCustomId(`resume_${track.requester.id}`).setEmoji('▶️').setStyle(ButtonStyle.Secondary),
-                        new ButtonBuilder().setCustomId(`skip_${track.requester.id}`).setEmoji('⏭️').setStyle(ButtonStyle.Secondary)
+                        new ButtonBuilder().setCustomId(`volume_up_${track.requester.id}`).setEmoji('<:cloudsound:1361447374873952286>').setStyle(ButtonStyle.Secondary),
+                        new ButtonBuilder().setCustomId(`volume_down_${track.requester.id}`).setEmoji('<:clowsound:1361448111511441499>').setStyle(ButtonStyle.Secondary),
+                        new ButtonBuilder().setCustomId(`pause_${track.requester.id}`).setEmoji('<:cpause:1361448290780057701>').setStyle(ButtonStyle.Secondary),
+                        new ButtonBuilder().setCustomId(`resume_${track.requester.id}`).setEmoji('<:cmusicnotes:1361448912090693776>').setStyle(ButtonStyle.Secondary),
+                        new ButtonBuilder().setCustomId(`skip_${track.requester.id}`).setEmoji('<:cskip:1361449126063116411>').setStyle(ButtonStyle.Secondary)
                     );
         
                     const buttonsRow2 = new ActionRowBuilder().addComponents(
-                        new ButtonBuilder().setCustomId(`stop_${track.requester.id}`).setEmoji('⏹️').setStyle(ButtonStyle.Danger),
-                        new ButtonBuilder().setCustomId(`clear_queue_${track.requester.id}`).setEmoji('🗑️').setStyle(ButtonStyle.Secondary),
-                        new ButtonBuilder().setCustomId(`show_queue_${track.requester.id}`).setEmoji('📜').setStyle(ButtonStyle.Secondary),
-                        new ButtonBuilder().setCustomId(`Lyrics_${track.requester.id}`).setEmoji('🎤').setStyle(ButtonStyle.Secondary),
-                        new ButtonBuilder().setCustomId(`loop_${track.requester.id}`).setEmoji('🔁').setStyle(ButtonStyle.Secondary)
+                        new ButtonBuilder().setCustomId(`stop_${track.requester.id}`).setEmoji('<a:offline:1361449938206330931>').setStyle(ButtonStyle.Danger),
+                        new ButtonBuilder().setCustomId(`clear_queue_${track.requester.id}`).setEmoji('<:cwastebasket:1361450219019178026>').setStyle(ButtonStyle.Secondary),
+                        new ButtonBuilder().setCustomId(`show_queue_${track.requester.id}`).setEmoji('<a:musicplaying21:1361451901354512606>').setStyle(ButtonStyle.Secondary),
+                        new ButtonBuilder().setCustomId(`Lyrics_${track.requester.id}`).setEmoji('<:cqueue:1361452198558564372>').setStyle(ButtonStyle.Secondary),
+                        new ButtonBuilder().setCustomId(`loop_${track.requester.id}`).setEmoji('<:crepeat:1361452410912112831>').setStyle(ButtonStyle.Secondary)
                     );
         
                     components = [buttonsRow, buttonsRow2];
