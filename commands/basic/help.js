@@ -13,9 +13,9 @@ module.exports = {
     async execute(interaction) {
         if (interaction.isCommand && interaction.isCommand()) {
             // Constants for styling
-            const BOT_ICON = "https://cdn.discordapp.com/emojis/1334648756649590805.png";
+            const BOT_ICON = "https://cdn.discordapp.com/emojis/1333343736100421652.webp?size=160";
             const EMBED_COLOR = "#5865F2"; // Discord blurple for a more modern look
-            const FOOTER_TEXT = "All In One | The Discord Operating System • Created by GlaceYT";
+            const FOOTER_TEXT = "Wisdom Vibes | The Discord Operating System • Created by Apollo";
             const COMMANDS_DIR = path.join(__dirname, '../../commands');
             const EXCESS_COMMANDS_DIR = path.join(__dirname, '../../excesscommands');
 
@@ -114,11 +114,11 @@ module.exports = {
 
                 // Enhanced Info Page
                 pages.push({
-                    title: '✨ ALL IN ONE BOT',
+                    title: '✨ WISDOM VIBES BOT',
                     description: [
                         '### THE DISCORD OPERATING SYSTEM',
                         '',
-                        '> The ultimate Discord bot for all your server needs',
+                        '> The ultimate Discord bot for Our Wisdom Community',
                         '',
                         '**BOT STATISTICS**',
                         `\`🧠\` **Version:** 1.2.2`,
@@ -129,7 +129,7 @@ module.exports = {
                         `\`💻\` **Prefix Commands:** ${Object.values(config.excessCommands).some(v => v) ? '`Enabled`' : '`Disabled`'}`,
                         '',
                     ].join('\n'),
-                    author: { name: 'ALL IN ONE BOT • COMMAND CENTER' },
+                    author: { name: 'Wisdom Vibes • COMMAND CENTER' },
                     icon: '📚' // Safe icon for dropdown
                 });
 
@@ -358,7 +358,7 @@ module.exports = {
                     url: "https://discord.gg/xQF9f9yUEM"
                 })
                 .setDescription('> ⚠️ This command can only be used as a slash command!\n> Please use `/help` instead.')
-                .setFooter({ text: 'All In One Bot • Error' })
+                .setFooter({ text: 'Wisdom Vibes • Error' })
                 .setTimestamp();
 
             await interaction.reply({ embeds: [embed], ephemeral: true });
