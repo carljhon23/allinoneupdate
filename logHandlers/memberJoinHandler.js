@@ -131,7 +131,8 @@ module.exports = async function memberJoinHandler(client) {
 
                 const welcomeEmbed = new EmbedBuilder()
                     .setTitle("Welcome!")
-                    .setDescription(`${member}, You are the **${memberCount}${suffix}** member of our server!`)
+                    .setDescription(`${member}, *You are the* **${memberCount}${suffix}** *member of our server!* 
+ **read rules frome here** <#1201647312842277046> <a:LightingBolt:1361729193947168870>   *take ur roles from here* <#1338316546023620619> `)
                     .setColor("#00e5ff")
                     .setThumbnail(serverIcon)
                     .setImage('attachment://welcome.png')
