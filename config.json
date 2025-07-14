@@ -2,7 +2,7 @@
     "token": "",
     "language": "en",
     "prefix": "$",
-    "mongodbUri": "mongodb+srv://razorclaw996:0654788685razor@discordbot.dkbsd.mongodb.net/?retryWrites=true&w=majority",
+    "mongodbUri": "",
     "excessCommands": {
         "utility": true,
         "other": true,
