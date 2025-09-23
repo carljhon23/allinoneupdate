@@ -2,10 +2,11 @@
 module.exports = {
     enabled: true, 
 "lavalink": {
-        "identifier": "musix",
-        "password": "wwweasycodero",
-        "host": "lavalink-v2.pericsq.ro",
-        "port": 6677,
+        "identifier": "dctv (sgp)",
+        "password": "quangloc2018",
+        "host": "s13.oddblox.us",
+        "port": 28405,
         "secure": false
       }
 };
+
