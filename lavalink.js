@@ -2,11 +2,12 @@
 module.exports = {
     enabled: true, 
 "lavalink": {
-        "identifier": "dctv (sgp)",
-        "password": "quangloc2018",
-        "host": "s13.oddblox.us",
-        "port": 28405,
+        "identifier": "apollolava",
+        "password": "youshallnotpass",
+        "host": "mine.visionhost.cloud",
+        "port": 2002,
         "secure": false
       }
 };
+
 
